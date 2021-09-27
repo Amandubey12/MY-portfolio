@@ -1,0 +1,55 @@
+@media screen and (max-width:1000px){
+
+    nav{
+        flex-direction: column;
+    }
+    nav h1{
+        justify-content: center;
+        margin: 10px,0;
+
+    }
+    nav ul{
+        justify-content: center;
+    }
+    nav form{
+        justify-content: center;
+    }
+    .search{
+        justify-content: center;
+        
+    }
+    .con{
+        justify-content: center;
+    }
+    .about {
+        justify-content: center;
+    }
+    .pur img{
+        justify-content: center;
+    }
+    .pro{
+        justify-content: center;
+    }
+    .ab{
+        justify-content: center;
+    }
+    .project{
+        justify-content: center;
+    }
+    .pr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bn{
+        justify-content: center;
+        /* display: flex;
+        align-items: center; */
+    }
+    footer{
+        justify-content: center;
+    }
+
+
+
+}

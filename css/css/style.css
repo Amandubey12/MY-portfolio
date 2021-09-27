@@ -1,0 +1,90 @@
+*{
+ margin:0;
+ padding:0;
+}
+header{ 
+
+    background: rgb(70, 70, 4);
+    color:bisque;
+    font-family: lato,sans-serif;
+}
+    
+
+nav{
+    display: flex;
+}
+nav h1{
+    height:70px;
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    font-family: 'Grechen Fuemen', cursive;
+
+    
+}
+
+nav ul{ 
+    height:70px;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-left: auto;
+
+}
+nav ul li {
+    list-style: none;
+    padding: 23px;
+}
+nav ul li a {
+    color:white;
+    text-decoration:none;
+    
+
+
+
+}
+form{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 250px;
+}
+main{
+    padding: 0;margin: 0;
+    /* display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 250px; */
+}
+ main h1{
+     margin: 10;
+     padding:px;
+    /* background:rosybrown; */
+    text-align:center;
+    font-family: 'Grechen Fuemen', cursive;
+    
+
+}
+main  about p{
+     display: flex;
+    text-align: end;
+    justify-content:right;
+    
+}
+
+
+footer{
+    height: 16vh;
+    background: rgb(70, 70, 4);
+    color :white;
+    text-align: center;
+    
+}
+footer ul {
+    padding-inline-start:50px;
+    display:flex;
+    justify-content:space-between;  
+    align-items:stretch ;
+    margin-left: auto;
+ padding: 23px;
+}
