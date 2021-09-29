@@ -14,7 +14,7 @@ nav{
     display: flex;
 }
 nav h1{
-    height:70px;
+    height:75px;
     display:flex;
     justify-content:flex-start;
     align-items: center;
