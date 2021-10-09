@@ -78,6 +78,9 @@
         padding: 10px;
 
     }
+     .pr img{
+        width: 300px;
+    }
 
     .bn{
         justify-content: center;
