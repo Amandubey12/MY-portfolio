@@ -1,6 +1,10 @@
 @media screen and (max-width:700px){
+<<<<<<< HEAD
 
     
+=======
+   
+>>>>>>> 6c1c8a8ef77b7b4ea57a9de507e98946203d98b2
     nav{
         flex-direction: column;
         height: 200px;
@@ -57,12 +61,23 @@
         justify-content:center;
         /* flex-direction: column; */
      
+<<<<<<< HEAD
     .ab{
+=======
+     .ab{
+>>>>>>> 6c1c8a8ef77b7b4ea57a9de507e98946203d98b2
         display:flex;
         justify-content:center;
         width: 300px;
         height: 300px;
         
+<<<<<<< HEAD
+=======
+    }
+    .ab img{
+        width: 200px;
+        height: 300px;
+>>>>>>> 6c1c8a8ef77b7b4ea57a9de507e98946203d98b2
     }
     .ab img{
         width: 200px;
@@ -80,7 +95,11 @@
         padding: 10px;
 
     }
+<<<<<<< HEAD
     .pr img{
+=======
+     .pr img{
+>>>>>>> 6c1c8a8ef77b7b4ea57a9de507e98946203d98b2
         width: 300px;
     }
 
