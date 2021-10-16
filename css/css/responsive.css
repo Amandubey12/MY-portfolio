@@ -1,52 +1,96 @@
-@media screen and (max-width:1000px){
+@media screen and (max-width:700px){
 
+    
     nav{
         flex-direction: column;
+        height: 200px;
     }
     nav h1{
+        display: grid;
         justify-content: center;
         margin: 10px,0;
 
     }
     nav ul{
         justify-content: center;
+        width: 300px;
     }
     nav form{
         justify-content: center;
+        margin-left: 100px;
     }
     .search{
-        justify-content: center;
+        /* grid-auto-columns: auto; */
+        justify-content:center;
+        display: block;
         
     }
     .con{
         justify-content: center;
     }
+    .con img{
+        width: 300px;
+    }
     .about {
+        display: grid;
         justify-content: center;
     }
     .pur img{
         justify-content: center;
     }
+    .gri{
+        display:block;
+
+    }
     .pro{
+        display: contents;
         justify-content: center;
     }
-    .ab{
-        justify-content: center;
-    }
-    .project{
-        justify-content: center;
-    }
-    .pr{
+    .pro h1{
         display: flex;
         justify-content: center;
-        align-items: center;
+        width: 400px;
+        margin-right: 40px;
     }
+    /* .pro p{
+        display:grid ;
+        justify-content:center;
+        /* flex-direction: column; */
+     
+    .ab{
+        display:flex;
+        justify-content:center;
+        width: 300px;
+        height: 300px;
+        
+    }
+    .ab img{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .project{
+        display:grid;
+        justify-content:center;
+    }
+    .pr{
+        display: grid;
+        justify-content:contain;
+        align-items: center;
+        padding: 10px;
+
+    }
+    .pr img{
+        width: 300px;
+    }
+
     .bn{
         justify-content: center;
         /* display: flex;
         align-items: center; */
     }
     footer{
+        
         justify-content: center;
     }
 
