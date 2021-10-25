@@ -79,7 +79,7 @@
     width: 100px;
     height: 39px;
     border-radius: 15px;
-    background:rgb(66, 231, 176);
+    background:rgb(245, 201, 6);
     color: white;
     margin-top: 10px;
 
@@ -90,6 +90,7 @@
       
       width: fit-content;
       background: white;
+      background:rgb(145, 145, 81);
   }
 img:hover {
     -webkit-transform: scaleX(-1);
