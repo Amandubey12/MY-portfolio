@@ -48,7 +48,7 @@
 
     }
     .pro{
-        /* display: contents; */
+        display: contents;
         justify-content: center;
     }
     .pro h1{
@@ -96,16 +96,34 @@
         padding-top: 10px;
     }
 
-    .bn{
-        justify-content: center;
-        /* display: flex;
-        align-items: center; */
-    }
+    
+        .bn{
+            /* padding: 10px;; */
+            margin-left: 120px;
+            width: 100px;
+            height: 39px;
+            border-radius: 15px;
+            background:rgb(66, 231, 176);
+            color: white;
+            margin-top: 10px;
+        
+        }
+    
     footer{
         
         justify-content: center;
     }
-
+    img:hover {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+      }
+      .cart{
+        display: grid;
+          border: thin;
+          width: fit-content;
+          background: white;
+      }
+      
 
 
 }
